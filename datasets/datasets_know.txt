@@ -1,2 +1,3 @@
 1PBMC, Mouse ES, Human kidney and Adam datasets were used in cell clustering analysis, Deng and Petropoulos datasets were used in cell trajectory analysis.
 simulated_data : simulated datasets for gene expression recovery.
+: generate simulated dataset
