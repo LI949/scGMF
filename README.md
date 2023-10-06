@@ -1,2 +1,2 @@
 # scGMF
-scGMF: imputation of scRNA-seq data based on1  generalized matrix factorization
+scGMF: imputation of scRNA-seq data based on generalized matrix factorization
