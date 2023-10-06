@@ -41,7 +41,7 @@ def scNCF(adata,
           lr=0.01,
           n_epoch=200,
           numworker = 4,
-          log_interval=1,
+          log_interval=20,
           resolution=1,
           mode='undenoise'
           ):
