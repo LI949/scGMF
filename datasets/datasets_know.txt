@@ -1,3 +1,4 @@
 PBMC, Mouse ES, Human kidney and Adam datasets were used in cell clustering analysis, Deng and Petropoulos datasets were used in cell trajectory analysis.
+20k_PBMC_3p_HT_nextgem_Chromium_X_filtered_feature_bc_matrix.h5 was used for time and memory evaluation.
 simulated_data : simulated datasets for gene expression recovery.
 simul_dataset_generate.R : generate simulated dataset
