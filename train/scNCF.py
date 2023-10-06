@@ -9,7 +9,6 @@ import scanpy as sc
 from data.data_utils import prepare_data2,prepare_data3,prepare_data4, collate_train, collate_val,collate_denoise
 from train.utils import calculate_metric, ZINBLoss
 from sklearn.cluster import KMeans
-from Bio.Cluster import kcluster
 from sklearn.metrics import silhouette_score
 from data.datasets import DataPrefetcher
 from data.early_stopping import EarlyStopping
