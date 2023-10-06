@@ -12,4 +12,9 @@ adata, record, epochloss_list = scNCF(adata, n_clusters=n_clusters, cl_type='cl_
 imputed_matrix = np.array(adata.obsm['X_imputed']) # imputed matrix \
 embedding_matrix = np.array(adata.obsm['feat'])    # embedding matrix
 
-## 
+## demo only for denoise
+adata = sc.AnnData(X)     #X: expression matrix \
+adata = preprocess(adata)
+adata, record, epochloss_list = scNCF(adata, encoder='GMF', decoder='ZINB',mode ='denoise')
+
+imputed_matrix = np.array(adata.obsm['X_imputed'])
